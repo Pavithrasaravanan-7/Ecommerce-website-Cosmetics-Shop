@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cosmetic Shop Login</title>
+  <link rel="stylesheet" href="login.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+  <form class="login_page" onsubmit="validate(); return false;">
+    <div class="title">
+      <h1>Cosmetic Shop <i class="fa fa-shopping-cart" style="font-size:36px;"></i></h1>
+    </div>
+
+    <div class="loginall">
+      <div class="login_img">
+        <img src="./login_img.png" alt="Login Image" />
+      </div>
+
+      <div class="loginpage">
+        <h1>Login</h1>
+
+        <div class="name">
+          <label for="UserName">Email or Username</label>
+          <input type="text" id="UserName" name="UserName" placeholder="Enter Username" />
+        </div>
+
+        <div class="password">
+          <label for="Password">Password</label>
+          <input type="password" id="Password" name="Password" placeholder="Password" />
+        </div>
+
+        <div class="login">
+          <button type="submit">Log in</button>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <script src="login.js"></script>
+</body>
+</html>
